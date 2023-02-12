@@ -1,0 +1,29 @@
+.client {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+
+  .client__logo {
+    padding-top: 17.71px;
+    padding-bottom: 14.25px;
+    padding-right: 32px;
+    padding-left: 32px;
+    border: 1px solid#afb1b8;
+    border-radius: 4px;
+    fill: #afb1b8;
+
+    display: block;
+    &:hover {
+      cursor: pointer;
+      border-color: #2196f3;
+      fill: #2196f3;
+    }
+  }
+  .client__list {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    list-style: none;
+  }
+}

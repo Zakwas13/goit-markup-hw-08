@@ -1,0 +1,22 @@
+.type-work {
+  position: relative;
+  .type-work__text {
+    position: absolute;
+    width: 370px;
+    height: 70px;
+
+    top: 225px;
+    left: 0px;
+    background-color: rgba(47, 48, 58, 0.8);
+    color: #ffffff;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+
+    text-transform: uppercase;
+    padding-top: 27px;
+  }
+}

@@ -1,0 +1,21 @@
+.logo {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1, 19230769;
+
+  letter-spacing: 0.03em;
+  text-decoration: none;
+
+  padding-top: 24px;
+  padding-right: 93px;
+  padding-bottom: 25px;
+  font-family: "Raleway";
+  color: #000000;
+
+  &:hover {
+    color: #2196f3;
+  }
+  .logo--blue {
+    color: #2196f3;
+  }
+}

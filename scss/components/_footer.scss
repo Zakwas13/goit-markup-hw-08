@@ -1,0 +1,23 @@
+.footer {
+  padding-left: 10px;
+  max-height: 252px;
+  display: flex;
+  gap: 70px;
+  background: #2f303a;
+
+  padding-top: 70px;
+  padding-bottom: 60px;
+  padding-right: 150px;
+  padding-left: 150px;
+  .footer__title {
+    padding-bottom: 20px;
+    padding-top: 12px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+    display: block;
+  }
+}

@@ -1,0 +1,47 @@
+@use "./utils/variables.scss" as *;
+@use "./components/header" as *;
+@use "./components/logo" as *;
+@use "./components/navigation" as *;
+@use "./components/wallpaper" as *;
+@use "./components/containery" as *;
+@use "./components/section " as *;
+@use "./components/flex-box" as *;
+@use "./components/type-work" as *;
+@use "./components/person" as *;
+@use "./components/person-media" as *;
+@use "./components/client" as *;
+@use "./components/button" as *;
+@use "./components/projects" as *;
+@use "./components/footer" as *;
+@use "./components/contact-list" as *;
+@use "./components/media" as *;
+@use "./components/newsletter" as *;
+@use "./components/backdrop" as *;
+@use "./components/modal" as *;
+@use "./components/form" as *;
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0px;
+}
+body {
+  color: #212121;
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  list-style-position: outside;
+}
+h4 {
+  padding-bottom: 10px;
+}
+h2 {
+  padding-bottom: 50px;
+}
+:hover,
+:focus {
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
