@@ -329,6 +329,50 @@
       </label>
       </div>
      
-    </footer>
+    </footer><div class="backdrop backdrop--hidden" data-modal>
+      <div class="modal">
+          <button class="modal__button-close" data-modal-close>
+              <svg height="11px" width="11ps" fill="#000000">
+                  <use href="./images/icons.svg#icon-X-1"></use>
+              </svg></button>
+             <h1 class="modal__title">Zostaw swoje dane w formularzu poniżej</h1>
+             
+          <div class="form" ><form name="XD" >
+                  <label for="Name-id" class="form__position" >Imie
+                      <svg class="form__svg"><use href="./images/icons.svg#icon-Nick" width="12px"height="12px"></use></svg>
+                    <input class="form__input-field" type="name" name="name" id="Name-id" />
+              </label>
+              <label for="tel-id" class="form__position">
+                      Telefon<svg class="form__svg"><use href="./images/icons.svg#icon-Phone" width="13px"
+                          height="13px"
+                          ></use></svg>
+                    <input class="form__input-field" type="tel" name="tel" id="tel-id" />
+                  </label>
+
+              <label for="Email=id" class="form__position">
+                      Email<svg class="form__svg"><use href="./images/icons.svg#icon-Email" width="15px"
+                          height="12px"
+                          ></use></svg>
+                      <input class="form__input-field" type="email" name="email" id="Email=id" />
+                  </label>
+              <label>
+                      Komentarz
+                      <textarea class="from__coment" name="feedback" rows="6" placeholder="Wprowadź tekst"></textarea>
+                    </label>
+                   <label for="checkbox-id" class="form__position">
+                      <input  class="from__checkbox" type="checkbox" id="checkbox-id" />
+                      <svg class="from__checkbox-check" width="11px" height="8px"><use href="./images/icons.svg#icon-check-1"></use></svg>
+               Oświadczam iż akceptuję <span class="form--blue-underline" >Regulamin</span> i <span class="form--blue-underline "> Politykę Prywatności.</span>
+                    </label>
+                
+                    <button class="form__button-submit"  type="submit">Wyślij</button>
+                </form></div>
+                
+      </div> 
+
+  </div>
+
+
+      <script src="./js/modal.js"></script>
   </body>
 </html>
