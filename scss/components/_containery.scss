@@ -1,20 +1,23 @@
 .containery {
-  width: 1200px;
-  margin: auto;
-  max-width: 1600px;
   display: flex;
+  margin: auto;
+
   gap: 30px;
   padding-top: 94px;
   padding-bottom: 0px;
   .containery__svg {
+    border-radius: 4px;
     display: flex;
 
-    border-radius: 4px;
     margin-bottom: 30px;
     background: #efeff0;
+    margin: 0 auto;
+    width: 270px;
+    height: 120px;
   }
   .containery__text {
     font-size: 16px;
+
     line-height: 1, 8;
     letter-spacing: 0.03em;
     color: #838282;

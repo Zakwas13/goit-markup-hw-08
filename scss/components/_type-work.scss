@@ -1,5 +1,6 @@
 .type-work {
   position: relative;
+
   .type-work__text {
     position: absolute;
     width: 370px;
@@ -18,5 +19,10 @@
 
     text-transform: uppercase;
     padding-top: 27px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .type-work {
+    display: none;
   }
 }

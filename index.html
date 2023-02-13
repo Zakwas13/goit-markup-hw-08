@@ -23,8 +23,9 @@
 <body>
     <header class="page-header">
         <div class="container  ">
+            <div class=" position">
             <button
-              class="menu-toggle js-open-menu"
+              class="menu-toggle .apsolution js-open-menu "
               aria-expanded="false"
               aria-controls="mobile-menu"
             >
@@ -41,29 +42,29 @@
                   clip-rule="evenodd"
                 ></path>
               </svg>
-            </button>
+            </button></div>
     
             
-            </ul>
-          </div>
-        <div class="blink">
-        <a class="logo" href="index.html"><span class="logo--blue">Web</span>Studio</a>
-        <nav >
-            <ul class="navigation">
+            
+           
+            <a class="logo" href="index.html"><span class="logo--blue">Web</span>Studio</a>
+            <div class="blink">
+                <div class="navigation">
+         <nav >
+            <ul  >
                 <li><a class="navigation__link navigation--color navigation__link--bar" href="index.html">Agencja</a></li>
                 <li><a class="navigation__link" href="./pordfolio.html">Portfolio</a></li>
-                <li><a class="navigation__link navigation__link--end" >Kontakt</a></li>
+                <li><a class="navigation__link " >Kontakt</a></li>
             </ul>
-        </nav>
-        <div class="navigation">
+         </nav></div>
+            <div class="navigation">
             <div> 
                 <a class="navigation__contact" href="mailto=info@devstudio.com"> 
                     <svg class="navigation__svg"
                         width="16px" height="12px">
                         <use href="./images/icons.svg#icon-envelope-1"></use>
                     </svg> info@devstudio.com</a>
-            </div>
-            <div>
+            
 
                 <a class="navigation__contact  navigation__contact--end">
                      <svg class="navigation__svg" width="10px" height="16px">
@@ -84,42 +85,43 @@
         </article>
 
         <article class="containery">
+            <div class="flex-box-1">
             <div><svg class="containery__svg" width="270px" height="120px" viewBox="0 0 270 70">
                     <use href="./images/icons.svg#icon-antenna-1"></use>
                 </svg>
                 <h4 class="containery__title">LOREM IPSUM</h4>
-                <p class="containery__text">ipsum dolor sit amet, consectetur adipiscing elit. Nam
+                <span class="containery__text">ipsum dolor sit amet, consectetur adipiscing elit. Nam
                     vel arcu sem. Sed non
-                    sodales dui. Interdum et malesuada</p>
+                    sodales dui. Interdum et malesuada</span>
             </div>
             <div>
                 <svg class="containery__svg" width="270px" height="120px" viewBox="0 0 270 70">
                     <use href="./images/icons.svg#icon-clock-1"></use>
                 </svg>
                 <h4 class="containery__title">LOREM IPSUM</h4>
-                <p class="containery__text">ipsum dolor sit amet, consectetur adipiscing elit. Nam
+                <span class="containery__text">ipsum dolor sit amet, consectetur adipiscing elit. Nam
                     vel arcu sem. Sed non
-                    sodales dui. Interdum et malesuada</p>
+                    sodales dui. Interdum et malesuada</span>
             </div>
             <div><svg class="containery__svg" width="270px" height="120px" viewBox="0 0 270 70">
                     <use href="./images/icons.svg#icon-diagram-1"></use>
                 </svg>
                 <h4 class="containery__title">LOREM IPSUM</h4>
-                <p class="containery__text">ipsum dolor sit amet, consectetur adipiscing elit. Nam
+                <span class="containery__text">ipsum dolor sit amet, consectetur adipiscing elit. Nam
                     vel arcu sem. Sed non
-                    sodales dui. Interdum et malesuada</p>
+                    sodales dui. Interdum et malesuada</span>
             </div>
             <div><svg class="containery__svg" width="270px" height="120px" viewBox="0 0 270 70">
                     <use href="./images/icons.svg#icon-astronaut-1"></use>
                 </svg>
                 <h4 class="containery__title">LOREM IPSUM</h4>
-                <p class="containery__text">ipsum dolor sit amet, consectetur adipiscing elit. Nam
+                <span class="containery__text">ipsum dolor sit amet, consectetur adipiscing elit. Nam
                     vel arcu sem. Sed non
-                    sodales dui. Interdum et malesuada</p>
-            </div>
+                    sodales dui. Interdum et malesuada</span>
+            </div></div>
         </article>
         <article class="section">
-            <h2 class="section__title">Czym się zajmujemy</h2>
+            <h2 class="section__title-1">Czym się zajmujemy</h2>
             <div class="flex-box">
                 <div class=" type-work">
                     <img src=" ./images/img.jpg" alt="pisanie kodu przez programiste zblirzenie na ręce i stanowisko"
@@ -448,8 +450,8 @@
                   
         </div> 
 
-        <div class="menu-container js-menu-container" id="mobile-menu">
-            <button class="menu-toggle js-close-menu">
+        <div class="menu-container is-open "  id="mobile-menu">
+            <button class="menu-toggle js-close-menu ">
               <svg
                 fill="currentColor"
                 viewBox="0 0 20 20"
@@ -465,12 +467,7 @@
               </svg>
             </button>
       
-            <ul class="mobile-menu">
-              <li><a href="" class="link">About</a></li>
-              <li><a href="" class="link">Products</a></li>
-              <li><a href="" class="link">Contacts</a></li>
-              <li><a href="" class="link">Career</a></li>
-            </ul>
+            
           </div>
       
           <script

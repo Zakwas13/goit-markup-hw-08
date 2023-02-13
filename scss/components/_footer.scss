@@ -1,14 +1,13 @@
 .footer {
   padding-left: 10px;
-  max-height: 252px;
+  flex-wrap: wrap;
   display: flex;
-  gap: 70px;
+  gap: 60px;
   background: #2f303a;
-
-  padding-top: 70px;
+  justify-content: center;
+  padding-top: 60px;
   padding-bottom: 60px;
-  padding-right: 150px;
-  padding-left: 150px;
+
   .footer__title {
     padding-bottom: 20px;
     padding-top: 12px;
@@ -19,5 +18,12 @@
     text-transform: uppercase;
     color: #ffffff;
     display: block;
+    justify-content: center;
+    text-align: center;
+  }
+  @media screen and (min-width: 768px) {
+    .footer__title {
+      text-align: left;
+    }
   }
 }
