@@ -20,6 +20,7 @@
 @use "./components/modal" as *;
 @use "./components/form" as *;
 @use "./utils/mixins" as *;
+@use "./components/mobile-menu" as *;
 
 * {
   margin: 0;
