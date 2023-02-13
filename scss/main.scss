@@ -19,6 +19,7 @@
 @use "./components/backdrop" as *;
 @use "./components/modal" as *;
 @use "./components/form" as *;
+@use "./utils/mixins" as *;
 
 * {
   margin: 0;
